@@ -4,7 +4,7 @@
 
 ## 🌐 발표 자료 보기
 
-**온라인 발표 자료**: [여기를 클릭하세요](https://YOUR_GITHUB_USERNAME.github.io/YOUR_REPO_NAME/presentation.html)
+**온라인 발표 자료**: [여기를 클릭하세요](https://Mathhwi.github.io/25.10.16.Miho_Forecasting/presentation.html)
 
 *(GitHub Pages 설정 후 위 링크가 활성화됩니다)*
 
@@ -47,7 +47,7 @@
 
 1. 이 저장소를 클론합니다:
    ```bash
-   git clone https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME.git
+   git clone https://github.com/Mathhwi/25.10.16.Miho_Forecasting.git
    ```
 
 2. `presentation.html` 파일을 브라우저로 엽니다.
