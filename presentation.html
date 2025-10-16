@@ -730,9 +730,7 @@
             <div class="warning-box">
                 <h3>1. 기준점 2.34m 설정 관련</h3>
                 <ul style="font-size: 1.1em;">
-                    <li>현재 기준: 흥덕교 홍수주의보 기준 (2.34m)</li>
-                    <li><strong>논의 사항</strong>: 다른 기준점(예: 2.0m, 2.5m) 적용 시 사건 수 및 패턴 분포 변화</li>
-                    <li>기준점 변경이 분석 결과에 미치는 영향 검토 필요</li>
+                    <li>현재 기준: 무심천 단면도 표고 기준 (2.34m)</li>
                 </ul>
             </div>
 
@@ -740,7 +738,6 @@
                 <h3>2. 강우 사건 정의 (분석 구간) 관련</h3>
                 <ul style="font-size: 1.1em;">
                     <li>현재: 교차 전 24h + (교차~피크) + 피크 후 24h</li>
-                    <li><strong>논의 사항</strong>: 전후 시간 범위 조정 (예: 12h, 36h, 48h)</li>
                     <li>우발적 변동 제거 기준 (피크 ≥ 2.44m) 적정성</li>
                     <li>연속 사건 통합 기준 필요성 (예: 최소 간격 설정)</li>
                 </ul>
@@ -748,16 +745,6 @@
 
             <div class="highlight-box">
                 <h3>3. 1차 분석 (관측소 간 상관) 고정 여부</h3>
-                <ul style="font-size: 1.1em;">
-                    <li>현재: Pearson 상관계수 + Cross-correlation</li>
-                    <li><strong>논의 사항</strong>: 
-                        <ul>
-                            <li>다른 유사도 지표 적용 (Spearman, DTW, etc.)</li>
-                            <li>상관계수 기준값 (r ≥ 0.7) 조정 필요성</li>
-                            <li>강수량 비율 기준 (2:1) 근거 강화</li>
-                        </ul>
-                    </li>
-                </ul>
             </div>
 
             <div class="warning-box">
@@ -771,18 +758,7 @@
                             <li>기계학습 기반 최적값 탐색</li>
                         </ul>
                     </li>
-                    <li>Threshold 변경 시 균형형/주도형 비율 변화 → 예측 모델에 미치는 영향</li>
-                </ul>
-            </div>
-
-            <div class="success-box">
-                <h3>5. 추가 반영 사항 / 필요 자료 관련</h3>
-                <ul style="font-size: 1.1em;">
-                    <li>더 많은 사건 데이터 확보 (2024년 이후 데이터 추가)</li>
-                    <li>다른 수위 관측소 데이터 활용 가능성</li>
-                    <li>실시간 강우 예보 데이터와의 연계 방안</li>
-                    <li>물리적 메커니즘 해석을 위한 유역 특성 자료 (지형, 배수 체계 등)</li>
-                    <li>패턴 분류 결과의 예측 모델 성능 향상 기여도 정량 평가</li>
+                    <li>Threshold 변경 시 균형형/주도형 비율 변화</li>
                 </ul>
             </div>
         </div>
@@ -791,14 +767,6 @@
         <div class="slide">
             <h1 style="margin-top: 200px;">감사합니다</h1>
             <div class="subtitle">질문 및 의견 부탁드립니다</div>
-            
-            <div class="highlight-box" style="margin-top: 150px;">
-                <h3 style="text-align: center;">📂 분석 자료</h3>
-                <p style="text-align: center; font-size: 1.1em; margin-top: 20px;">
-                    모든 분석 코드, 데이터, 이미지는<br/>
-                    <code>10월_미팅자료_강우패턴분석</code> 폴더에서 확인 가능합니다.
-                </p>
-            </div>
         </div>
 
     </div>
