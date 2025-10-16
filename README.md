@@ -6,8 +6,6 @@
 
 **온라인 발표 자료**: [여기를 클릭하세요](https://Mathhwi.github.io/25.10.16.Miho_Forecasting/presentation.html)
 
-*(GitHub Pages 설정 후 위 링크가 활성화됩니다)*
-
 ## 📊 연구 개요
 
 - **연구 대상**: 무심천 유역 (금천, 가덕 강우 관측소 → 흥덕교 수위)
